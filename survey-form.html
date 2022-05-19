@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+
+<h1 id="title">Survey Form</h1>
+<p id="description">Description</p>
+
+<form id="survey-form"><label id ="name-label">Name
+<input id="name" type="text" placeholder="text" value="Mary Sue" required></input>
+</label>
+<label id ="email-label">Email
+<input id="email" type="email" placeholder="email" value="marysue@gmail.com" required></input>
+</label>
+<label id="number-label">Number
+<input id="number" type="number" min="0" max="9" placeholder="number" value="69"></input>
+</label>
+
+<label id ="dropdown-label">Dropdown</label>
+<select id="dropdown">
+  <option value="Sex">Sex</option>
+  <option value="Destruction">Destruction</option>
+</select>
+
+<label><input type="radio" name="Virgin-Popped" value="virgin" checked>Virgin</label>
+<label><input type="radio" name="Virgin-Popped" value="popped" >Popped</label>
+<label><input type="checkbox" name="stupid-checkbox"value="checkbox" checked>stupid</label>
+<label><input type="checkbox" name="stupid-checkbox" value="stupid">checkbox</label>
+<label><input type="checkbox" name="circumcision" value="circumcision">circumcision</label>
+<label>Additional Comments
+  <textarea id="additional-comments" name="additional-comments"></textarea>
+  <input type="submit" id="submit"></input>
+</label>
+</form>
